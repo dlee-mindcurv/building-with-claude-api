@@ -1,0 +1,25 @@
+{
+	"name": "building-with-claude-api",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"check": "biome check .",
+		"format": "biome check --write .",
+		"lint": "biome lint .",
+		"typecheck": "tsc --noEmit"
+	},
+	"private": true,
+	"dependencies": {
+		"@anthropic-ai/sdk": "^0.82.0",
+		"dotenv": "^17.4.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.10",
+		"@types/node": "^25.5.1",
+		"tsx": "^4.21.0",
+		"typescript": "^6.0.2"
+	}
+}

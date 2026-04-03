@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Parse an AWS S3 bucket name from an S3 URI (e.g., 's3://my-bucket/path/to/file.txt') and extract just the bucket name",
+    "format": "regex"
+  },
+  {
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM role with a trust policy allowing EC2 instances to assume it",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that takes an AWS region name and returns the corresponding S3 endpoint URL (e.g., 'us-east-1' returns 's3.us-east-1.amazonaws.com')",
+    "format": "python"
+  }
+]

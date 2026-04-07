@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - high-endurance performance with carbohydrate loading",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 4 meals (breakfast, lunch, dinner, snack) spanning one day",
+      "Macronutrient ratio approximately 60% carbohydrates, 20% protein, 20% fat to support endurance training",
+      "Total daily caloric intake between 3,000-3,500 calories appropriate for marathon training",
+      "Plan is concise and formatted compactly (under 400 tokens)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading with specific macronutrient ratios"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "muscle recovery and strength gains with pre/post-workout nutrition optimization",
+      "restrictions": "none"
+    },
+    "solution_criteria": [
+      "Meal plan covers full day with 4-5 meals/snacks structured around workout timing",
+      "Minimum 2.0g protein per kg bodyweight (170g total) distributed across meals",
+      "Includes specific meal timing relative to workout (pre-workout carbs, post-workout protein+carbs within 2 hours)",
+      "Compact format suitable for single athlete (no lengthy explanations, clear and scannable)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-focused meals for muscle recovery with timing around workout windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "78 kg",
+      "goal": "Optimize performance and recovery for soccer match day",
+      "restrictions": "Vegetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 main meals plus hydration strategy appropriate for mixed aerobic/anaerobic demands",
+      "Includes balanced macronutrients (carbohydrates for energy, protein for recovery, healthy fats) suited to soccer demands",
+      "Respects vegetarian and dairy-free restrictions in all meals",
+      "Presented in compact, easy-to-scan format suitable for 1-day reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (soccer player) requiring balanced nutrition for mixed aerobic and anaerobic demands with hydration considerations"
+  }
+]
